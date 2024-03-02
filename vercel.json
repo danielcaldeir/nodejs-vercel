@@ -1,11 +1,11 @@
 {
     "version": 2,
     "rewrites": [
-        { "source": "/(.*)", "destination": "/index.js" }
+        { "source": "/(.*)", "destination": "/public/index.js" }
     ],
     "builds": [
         {
-            "src": "public/index.js",
+            "src": "/public/index.js",
             "use": "@vercel/node"
         }
     ]
